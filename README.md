@@ -1,6 +1,6 @@
 # Mecanum Wheels Robot
 
-Mecanum Wheels Robot is a project I realized with @dawidrogalinski in the sixth semester of my studies within the Mobile Robots course at the Wroclaw University of Technology in the field of Control Engineering and Robotics. The main goal of this project was to create a mobile robot that would be controlled by means of wireless communication, and more specifically the Bluetooth standard. The control was carried out via the mobile application for the Android platform. The robot is equipped with four distance sensors that limit the possibility of running into an obstacle.
+Mecanum Wheels Robot is a project I realized with [Dawid Rogaliński](https://github.com/dawidrogalinski) in the sixth semester of my studies within the Mobile Robots course at the Wroclaw University of Technology in the field of Control Engineering and Robotics. The main goal of this project was to create a mobile robot that would be controlled by means of wireless communication, and more specifically the Bluetooth standard. The control was carried out via the mobile application for the Android platform. The robot is equipped with four distance sensors that limit the possibility of running into an obstacle.
   
 ## Features
 
