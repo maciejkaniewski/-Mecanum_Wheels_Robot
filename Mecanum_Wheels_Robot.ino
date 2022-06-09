@@ -57,7 +57,7 @@ void control_motors()
     switch (cmd[1])
     {
       case '1': // NW Direction
-        
+
         motor2.start(CCW);
         motor3.start(CW);
         break;
@@ -77,13 +77,13 @@ void control_motors()
         break;
 
       case '3': // NE Direction
-       
+
         motor1.start(CCW);
         motor4.start(CW);
         break;
 
       case '4': // E Direction (Right)
-        
+
         R_flag = 1;
         hcsr04RDist = hcsr04R.ping_cm(30);
 
@@ -112,7 +112,7 @@ void control_motors()
         break;
 
       case '6': // SW Direction
-      
+
         motor1.start(CW);
         motor4.start(CCW);
         break;
@@ -133,13 +133,13 @@ void control_motors()
         break;
 
       case '8': // SE Direction
-      
+
         motor2.start(CW);
         motor3.start(CCW);
         break;
 
       case '9': // Turn Around Left
-      
+
         motor1.start(CW);
         motor2.start(CW);
         motor3.start(CW);
@@ -147,7 +147,7 @@ void control_motors()
         break;
 
       case 'A': // Turn Around Right
-      
+
         motor1.start(CCW);
         motor2.start(CCW);
         motor3.start(CCW);
@@ -155,7 +155,7 @@ void control_motors()
         break;
 
       default: // Stop
-      
+
         B_flag = 0;
         F_flag = 0;
         L_flag = 0;
@@ -183,13 +183,13 @@ void setup() {
   Serial.begin(9600);
   Serial.println("Serial initialized");
   Wire.begin();
-  
+
   //Initialize D.C motor drive chip
   motor1.init();
   motor2.init();
   motor3.init();
   motor4.init();
-  
+
   //Setting initial velocity (Min:0  Max:4096)
   motor1.speed(4096);
   motor2.speed(4096);
@@ -261,5 +261,4 @@ void loop()
       if (cmdIndex < 99) cmdIndex++;
     }
   }
-
 }
