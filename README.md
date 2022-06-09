@@ -9,13 +9,14 @@ Mecanum Wheels Robot is a project I realized with [Dawid Rogaliński](https://gi
   <img src="https://github.com/maciejkaniewski/Mecanum_Wheels_Robot/blob/main/images/mobile_robot_no_bg.png?raw=true" alt="Mobile Robot"/>
 </p>
 
+[Final result of the project on YouTube](https://www.youtube.com/watch?v=4yvmt_kOMKs&ab_channel=Kania)
+
 ## Features
 
 - Holonomic robot, it can be steered in all directions available to it
 - Bluetooth connectivity
 - Control via Android application
 - Obstacle detection in four driving directions
-
 
 ## Setup
 Prerequisites:
