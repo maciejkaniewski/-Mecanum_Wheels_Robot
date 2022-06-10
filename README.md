@@ -21,5 +21,5 @@ Mecanum Wheels Robot is a project I realized with [Dawid Rogaliński](https://gi
 ## Setup
 Prerequisites:
 
-- Installed [DFRobot_MotorStepper](https://pages.github.com/) library
+- Installed [DFRobot_MotorStepper](https://github.com/DFRobot/DFRobot_MotorStepper) library
 - Installed  [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/src/master/) library
